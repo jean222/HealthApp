@@ -14,6 +14,7 @@
 
 .human-body svg:hover path {
     fill: #ff7d16;
+    
 }
 
 .human-body svg {
@@ -63,6 +64,7 @@
     margin-left: -46.5px;
     top: 205px;
     z-index: 9999;
+    fill: rgb(190, 175, 33);
 }
 
 .human-body svg#right-leg {
@@ -93,16 +95,17 @@
 }
 
 #area {
-    display: block;
-    width: 100%;
+    display: flex;
+    
+    width: 300px;
     clear: both;
     padding: 10px;
     text-align: center;
     font-size: 25px;
     font-family: Courier New;
-    color: #a5a5a5;
+   
 }
 
-#area #data {
+/* #area #data {
     color: black;
-}
+} */
