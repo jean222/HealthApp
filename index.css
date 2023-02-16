@@ -1,3 +1,45 @@
+/* # is an id selector: use only once*/
+/* . is a class selector: use multiple times*/
+
 body{
     background-color: azure;
 }
+
+#sideNav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#sideNav a:hover {
+    left: 0;
+}
+
+#firstBtn{
+    top: 20px;
+    background-color: brown;
+}
+
+#secondBtn {
+    top: 80px;
+    background-color: brown;
+}
+
+#thirdBtn {
+    top: 140px;
+    background-color: brown;
+}
+
+#fourthBtn {
+    top: 200px;
+    background-color: brown;
+}
+
+
+  

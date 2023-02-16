@@ -51,6 +51,7 @@
 .human-body svg#chest {
     margin-left: -43.5px;
     top: 88px;
+    fill: red;
 }
 
 .human-body svg#stomach {
