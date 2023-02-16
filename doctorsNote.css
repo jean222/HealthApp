@@ -1,0 +1,12 @@
+/* # is an id selector: use only once*/
+/* . is a class selector: use multiple times*/
+
+body{
+    text-align: center;
+}
+
+.mainContainer{
+    width: 200px;
+    background-color: rgb(53, 80, 80);
+    text-align: center;v
+}
