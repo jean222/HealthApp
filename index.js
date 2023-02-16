@@ -34,9 +34,13 @@ window.onload = function () {
 
             for(let i = 0; i < bodyPart.length; i++){
                 if(bodyPart[i].part == part){
-                    // document.getElementById('summary').innerHTML = bodyPart[i].summary
+                    document.getElementById('summary').innerHTML = bodyPart[i].summary
                 }
             }
+            document.getElementById('btn').innerHTML = `<button id="btn1">More Info</button>`
+            document.getElementById('btn1').addEventListener('click', function(){
+                location.href = "#"
+            })
 
         }
         

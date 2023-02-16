@@ -5,7 +5,6 @@ body{
     background-color: azure;
 }
 
-
 /*===SIDENAV===*/
 #sideNav a {
   position: absolute;
@@ -35,7 +34,7 @@ body{
 }
 
 #thirdBtn {
-    top: 140px;
+    top: 165px;
     background-color: brown;
 }
 

@@ -95,15 +95,21 @@
 }
 
 #area {
+
     display: block;
-    
-    width: 300px;
+    text-align: center;
+  
+    width: 100%;
     clear: both;
     padding: 10px;
     text-align: center;
     font-size: 25px;
     font-family: Courier New;
    
+}
+#btn1{
+    border-radius: 16px;
+    
 }
 
 /* #area #data {
