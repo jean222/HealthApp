@@ -32,6 +32,12 @@ window.onload = function () {
             }
             document.getElementById('condition').innerHTML = condition
 
+            for(let i = 0; i < bodyPart.length; i++){
+                if(bodyPart[i].part == part){
+                    // document.getElementById('summary').innerHTML = bodyPart[i].summary
+                }
+            }
+
         }
         
         // _piece.onmouseover = function(t){

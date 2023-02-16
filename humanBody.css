@@ -95,7 +95,7 @@
 }
 
 #area {
-    display: flex;
+    display: block;
     
     width: 300px;
     clear: both;
