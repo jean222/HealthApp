@@ -2,7 +2,7 @@
 /* . is a class selector: use multiple times*/
 
 body{
-    background-color: azure;
+    background-color:  #f0f0f0;
 }
 
 /*===SIDENAV===*/
@@ -24,13 +24,13 @@ body{
 }
 
 #firstBtn{
-    top: 20px;
-    background-color: brown;
+    top: 30px;
+    background-color: rgb(65, 63, 63);
 }
 
 #secondBtn {
-    top: 80px;
-    background-color: brown;
+    top: 90px;
+    background-color: rgb(65, 63, 63);
 }
 
 #thirdBtn {
@@ -45,6 +45,15 @@ body{
 
 /*===END SIDENAV===*/
 
+
+#quoteBox {
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: auto;
+}
 
 
   

@@ -13,14 +13,14 @@
 }
 
 .human-body svg:hover path {
-    fill: #ff7d16;
+    fill: #ccc6c3;
     
 }
 
 .human-body svg {
     position: absolute;
     left: 50%;
-    fill: #73878a; /*the human body color */
+    fill: #536062; /*the human body color */
 }
 
 .human-body svg#head {
@@ -64,7 +64,7 @@
     margin-left: -46.5px;
     top: 205px;
     z-index: 9999;
-    fill: rgb(190, 175, 33);
+    fill: rgb(214, 199, 61);
 }
 
 .human-body svg#right-leg {
@@ -98,7 +98,6 @@
 
     display: block;
     text-align: center;
-  
     width: 100%;
     clear: both;
     padding: 10px;
