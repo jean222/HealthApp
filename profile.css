@@ -1,12 +1,57 @@
 /* # is an id selector: use only once*/
 /* . is a class selector: use multiple times*/
 
-body{
+
+html, body{
     background-color: #f0f0f0;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topBox {
+    background-color: black;
+    overflow: hidden;
+    height:50px; 
+    border-color:red;
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
+}
+
+#topBox a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding: 14px 16px;
     text-align: center;
 }
 
-#mainContainer {
-    
+#topBox a:hover {
+    background-color: #f1f1f1;
+    color: #333;
 }
 
+#quoteBox {
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#profileBox {
+    /* background-color: #b0aaaa; */
+    background-color: #9f9999;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 20px 20px 20px;
+}
+
+.container {
+    float: right;
+    text-align: right;
+    color: #f1f1f1;
+}
