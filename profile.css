@@ -9,6 +9,14 @@ html, body{
     padding: 0px;
 }
 
+.images {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    padding-top: 20px;
+    
+}
+
 #topBox {
     background-color: black;
     overflow: hidden;
@@ -41,17 +49,44 @@ html, body{
     margin-right: 4%;
 }
 
-#profileBox {
+.box {
     /* background-color: #b0aaaa; */
     background-color: #9f9999;
     text-align: left;
     margin-left: 3%;
     margin-right: 3%;
     padding: 20px 20px 20px 20px;
+    max-height: 300px;
+    height: 100%;
+    display: block;
+
 }
 
 .container {
-    float: right;
-    text-align: right;
+    background-color: #9f9999;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 20px 20px 20px;
     color: #f1f1f1;
+}
+
+#reminderBox {
+    background-color: #9f9999;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 20px 20px 20px;
+    color: #f1f1f1;
+}
+
+li {
+    font-size: x-large;
+}
+ul {
+    font-size: medium;
+}
+
+#footer {
+    padding: 5px;
 }
