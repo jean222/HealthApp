@@ -2,7 +2,12 @@
 /* . is a class selector: use multiple times*/
 
 body{
-    background-color:  #f0f0f0;
+    background-image: url('https://t4.ftcdn.net/jpg/00/85/63/29/360_F_85632977_1uaxH5KEDsl7YxtrfI5htbIboSCxvFKm.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 /*===SIDENAV===*/
