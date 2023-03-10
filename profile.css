@@ -14,14 +14,13 @@ html, body{
     max-width: 350px;
     height: auto;
     padding-top: 20px;
-    
 }
+
 
 #topBox {
     background-color: black;
     overflow: hidden;
     height:50px; 
-    border-color:red;
     position:-webkit-sticky; 
     position:sticky; 
     top:0;
@@ -32,7 +31,7 @@ html, body{
     text-decoration: none;
     display: block;
     float: right;
-    padding: 14px 16px;
+    padding: 16px 40px;
     text-align: center;
 }
 
@@ -50,7 +49,6 @@ html, body{
 }
 
 .box {
-    /* background-color: #b0aaaa; */
     background-color: #9f9999;
     text-align: left;
     margin-left: 3%;
@@ -59,6 +57,7 @@ html, body{
     max-height: 300px;
     height: 100%;
     display: block;
+    box-shadow: 5px 10px 18px #888888;
 
 }
 
@@ -69,6 +68,7 @@ html, body{
     margin-right: 3%;
     padding: 20px 20px 20px 20px;
     color: #f1f1f1;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 #reminderBox {
@@ -78,6 +78,7 @@ html, body{
     margin-right: 3%;
     padding: 20px 20px 20px 20px;
     color: #f1f1f1;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 li {

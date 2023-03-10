@@ -2,49 +2,39 @@
 /* . is a class selector: use multiple times*/
 
 body{
-    background-color:  #f0f0f0;
+    background-image: url('https://t4.ftcdn.net/jpg/00/85/63/29/360_F_85632977_1uaxH5KEDsl7YxtrfI5htbIboSCxvFKm.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
 }
 
-/*===SIDENAV===*/
-#sideNav a {
-  position: absolute;
-  left: -80px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  text-align: right;
-  color: white;
-  border-radius: 0 5px 5px 0;
+/*=====TOP BOX=====*/
+#topBox {
+    background-color: black;
+    overflow: hidden;
+    height:50px; 
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
 }
 
-#sideNav a:hover {
-    left: 0;
+#topBox a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: flex;
+    padding: 16px 40px;
+    text-align: center;
 }
 
-#firstBtn{
-    top: 30px;
-    background-color: rgb(65, 63, 63);
+#topBox a:hover {
+    background-color: #f1f1f1;
+    color: #333;
 }
 
-#secondBtn {
-    top: 90px;
-    background-color: rgb(65, 63, 63);
-}
-
-#thirdBtn {
-    top: 165px;
-    background-color: brown;
-}
-
-/* #fourthBtn {
-    top: 200px;
-    background-color: brown;
-} */
-
-/*===END SIDENAV===*/
-
+/*=====ENDTOP BOX=====*/
 
 #quoteBox {
     text-align: center;

@@ -35,7 +35,7 @@ let userCondition = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam qui fuga, accusamus ipsum provident reprehenderit iure sequi necessitatibus! Hic voluptatibus quis aliquam quidem molestias nobis molestiae esse impedit corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi blanditiis vitae nulla vero! Repudiandae inventore impedit culpa itaque illum. Labore modi eaque, accusamus dicta doloremque obcaecati minima laboriosam perferendis ea."
     },
     {
-        part: "righ-hand", 
+        part: "right-hand", 
         summary: "your right hand is in good shape",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam qui fuga, accusamus ipsum provident reprehenderit iure sequi necessitatibus! Hic voluptatibus quis aliquam quidem molestias nobis molestiae esse impedit corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi blanditiis vitae nulla vero! Repudiandae inventore impedit culpa itaque illum. Labore modi eaque, accusamus dicta doloremque obcaecati minima laboriosam perferendis ea."
     },
