@@ -7,8 +7,35 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0px;
+    padding: 0px;
 
 }
+
+/*=====TOP BOX=====*/
+#topBox {
+    background-color: black;
+    overflow: hidden;
+    height:50px; 
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
+}
+
+#topBox a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: flex;
+    padding: 16px 18px;
+    text-align: center;
+}
+
+#topBox a:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/*=====ENDTOP BOX=====*/
 
 /*===SIDENAV===*/
 #sideNav a {
@@ -38,10 +65,10 @@ body{
     background-color: rgb(65, 63, 63);
 }
 
-#thirdBtn {
+/* #thirdBtn {
     top: 165px;
     background-color: brown;
-}
+} */
 
 /* #fourthBtn {
     top: 200px;
