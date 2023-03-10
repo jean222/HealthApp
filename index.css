@@ -37,47 +37,6 @@ body{
 
 /*=====ENDTOP BOX=====*/
 
-/*===SIDENAV===*/
-#sideNav a {
-  position: absolute;
-  left: -80px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  text-align: right;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
-
-#sideNav a:hover {
-    left: 0;
-}
-
-#firstBtn{
-    top: 30px;
-    background-color: rgb(65, 63, 63);
-}
-
-#secondBtn {
-    top: 90px;
-    background-color: rgb(65, 63, 63);
-}
-
-/* #thirdBtn {
-    top: 165px;
-    background-color: brown;
-} */
-
-/* #fourthBtn {
-    top: 200px;
-    background-color: brown;
-} */
-
-/*===END SIDENAV===*/
-
-
 #quoteBox {
     text-align: center;
     font-style: italic;
